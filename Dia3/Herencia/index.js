@@ -16,7 +16,7 @@ Abstracción : Representar entidades del mundo real con sus características ese
 
 Encapsulamiento : Ocultar los detalles internos y exponer solo lo necesario.
 
-Herencia: Reutilizar código mediante una relación de tipo "es-un".
+Herencia: Reutilizar código mediante una relación de tipo "es-un". ✅
 
 Polimorfismo: Permite que un mismo método se comporte de diferentes formas según el
 contexto.
@@ -29,3 +29,5 @@ let perro2 = new Perro("Oreo");
 console.log(perro.nombre);
 perro.hablar();
 perro2.hablar();
+
+console.log(perro);
